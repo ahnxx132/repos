@@ -88,8 +88,6 @@ For Each ws In Worksheets
     Next i
     
    LastRowI = ws.Cells(Rows.Count, 9).End(xlUp).Row
-        'MsgBox ("Last row in column I is " & LastRowI)
-       '
         
         GreatVol = ws.Cells(2, 12).Value
         GreatIncr = ws.Cells(2, 11).Value
